@@ -19,8 +19,8 @@ while guess != random_number and not(out_of_guesses):
     else:
         out_of_guesses = True
 
-    if out_of_guesses:
-        print("Out of guesses, you lose.")
-    else:
-        print("You win! It took you " + str(tries) + " tries to guess the right number, " + user + ".")
+if out_of_guesses:
+    print("Out of guesses, you lose.")
+else:
+    print("You win! It took you " + str(tries) + " tries to guess the right number, " + user + ".")
 
